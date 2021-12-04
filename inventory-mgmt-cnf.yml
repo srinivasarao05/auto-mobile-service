@@ -10,6 +10,6 @@ spring:
     generate-ddl: false
     
 stocks:
-  transport-type: Seaways
-  sla-days: 10  
+  transport-type: Airways
+  sla-days: 2  
 
