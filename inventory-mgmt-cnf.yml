@@ -10,6 +10,6 @@ spring:
     generate-ddl: false
     
 stocks:
-  transport-type: Cargo
-  sla-days: 2  
+  transport-type: Air
+  sla-days: 4  
 
