@@ -2,7 +2,8 @@
 spring:
   config:
     activate:
-      on-profile: master
+      on-profile:
+      - master
 eureka:
   client:
     register-with-eureka: false
@@ -12,7 +13,8 @@ eureka:
 spring:
   config:
     activate:
-      on-profile: replica
+      on-profile:
+      - replica
 eureka:
   client:
     register-with-eureka: true
