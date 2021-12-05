@@ -24,7 +24,7 @@ spring:
   config:
     activate:
       on-profile:
-      - dev
+      - test
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
